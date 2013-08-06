@@ -6,6 +6,7 @@
       if (el.getAttribute('data-gremlin-async') === 'true') {
         name = el.getAttribute('data-gremlin-found');
         return require([name], function(Gremlin) {
+          G.debug.console.log("Loaded gremlin definition <" + name + "> successfully with require.");
           try {
             return G.add(name, Gremlin);
           } catch (_error) {}
