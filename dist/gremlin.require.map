@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "gremlin.require.js",
+  "sourceRoot": "..\\src/",
+  "sources": [
+    "require.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,CAAuB,IAAvB,EAAwB,EAAhB;CACL,CAAD,CAA8B,MAAC,EAA/B,UAAA;CACE,GAAA,MAAA;CAAA,CAAK,EAAF,CAAyC,CAA5C,MAAG,QAAA;CACD,CAAS,CAAF,CAAP,IAAA,IAAO,QAAA;CACC,CAAQ,CAAA,CAAR,GAAR,EAAiB,MAAjB;CACE;CACG,CAAW,CAAZ,CAAA,GAAA,YAAA;YADF,MADc;CAAhB,QAAgB;QAHU;CAA9B,IAA8B;CADhC,EAAuB;CAAvB"
+}

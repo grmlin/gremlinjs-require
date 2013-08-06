@@ -1,4 +1,4 @@
-gremlinjs-amd
+gremlinjs-require
 =============
 
-GremlinJS amd support
+GremlinJS RequireJS support
