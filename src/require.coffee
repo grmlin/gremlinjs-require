@@ -1,4 +1,4 @@
-require ['GremlinJS'], (G) ->
+require ['Gremlin'], (G) ->
   G.on G.ON_DEFINITION_PENDING, (el) ->
     if el.getAttribute('data-gremlin-async') is 'true'
       name = el.getAttribute 'data-gremlin-found'

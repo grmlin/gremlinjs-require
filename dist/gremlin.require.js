@@ -1,6 +1,6 @@
 //@ sourceMappingURL=gremlin.require.map
 (function() {
-  require(['GremlinJS'], function(G) {
+  require(['Gremlin'], function(G) {
     return G.on(G.ON_DEFINITION_PENDING, function(el) {
       var name;
       if (el.getAttribute('data-gremlin-async') === 'true') {
